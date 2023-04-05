@@ -4,9 +4,16 @@ import { Toaster } from 'react-hot-toast';
 import { BsArrowUpCircleFill } from 'react-icons/bs';
 import { RouterProvider } from 'react-router-dom';
 import router from './Routes/Routes/Routes';
+import { useEffect } from 'react';
+import Aos from 'aos';
+import "aos/dist/aos.css";
 function App() {
+  useEffect(() => {
+    Aos.init();
+    Aos.refresh();
+  }, [])
   return (
-    <div className='max-w-[1100px] mx-auto'>
+    <div >
       <RouterProvider router={router}></RouterProvider>
       <Toaster></Toaster>
       <ScrollToTop showUnder={160} >
