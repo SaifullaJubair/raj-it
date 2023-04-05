@@ -40,8 +40,8 @@ const Navbar = () => {
                </ul>
             </div>
             <div className="navbar-end">
-               <p className='mx-2'><Link>Login</Link></p>
-               <p><Link>Sign Up</Link></p>
+               <button className='mx-2  bg-[#71cdfb] btn-sm rounded-full w-20 text-white font-bold'><Link>Login</Link></button>
+               <p className=''><Link>Sign Up</Link></p>
             </div>
          </div>
       </div>
