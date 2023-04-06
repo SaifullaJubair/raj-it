@@ -26,7 +26,8 @@ const Award = () => {
    return (
       <div className='max-w-[1100px] mx-auto my-16'>
          <div className='max-w-[1100px] mx-auto my-8'>
-            <h1 className='text-3xl font-semibold'>Award winning service. <span className='text-gray-400'>  National recognition.</span></h1></div>
+            <h1 className='text-3xl font-semibold'>Award winning service. <span className='text-gray-400'>  National recognition.</span></h1>
+         </div>
 
          <div className='ml-4'>
             <Carousel responsive={responsive}>
