@@ -1,10 +1,7 @@
 import React from 'react';
-import { WiNightCloudyGusts } from "react-icons/wi";
-import { BsTrophy } from "react-icons/bs";
-import { FaHeart, FaRegChartBar, FaUser } from 'react-icons/fa';
-
+import { BsCheckLg, BsHeart, BsShieldCheck } from 'react-icons/bs';
+import img1 from '../../../assets/Image_website/logo.png'
 import Carousel from 'react-multi-carousel';
-import "react-multi-carousel/lib/styles.css";
 const Networks = () => {
    const responsive = {
       desktop: {
@@ -27,51 +24,50 @@ const Networks = () => {
 
    return (
       <div className='max-w-[1100px] mx-auto my-16'>
-         <div className='max-w-[1100px] mx-auto my-8'> <h1 className='text-3xl font-semibold'>Award winning service. <span className='text-gray-400'>  National recognition.</span></h1></div>
-
-
+         <div className='max-w-[1100px] mx-auto my-8'>
+            <h1 className='text-3xl font-semibold'>The Midland Networks difference. <span className='text-gray-400'> Thats right!</span></h1>
+         </div>
 
          <div className='ml-4'>
             <Carousel responsive={responsive}>
-               <div className='text-lg font-semibold my-8 p-6 bg-white w-64 rounded-xl'>
-                  <WiNightCloudyGusts className='text-4xl mt-2 text-blue-500 font-semibold'></WiNightCloudyGusts>
-                  <p className='pt-4 pb-2'>2018</p>
-                  <p className='text-blue-500'>Cloud Solutions</p>
-               </div>
-               <div className='text-lg font-semibold my-8 p-6  bg-white w-64 rounded-xl'>
-                  <BsTrophy className='text-4xl mt-2 text-red-600 font-semibold'></BsTrophy>
-                  <p className='pt-4 pb-2'>2018</p>
-                  <p className='text-red-600 '>Cloud Solutions</p>
+               <div className=' font-semibold  p-6  bg-white w-64 rounded-xl'>
+                  <BsShieldCheck className='text-4xl mt-2 text-blue-500 font-bold'></BsShieldCheck>
+                  <p className='pt-4 '>Quality assurance.</p>
+                  <span className='text-blue-500'>Only The best for you.</span>
                </div>
 
-               <div className='text-lg font-semibold my-8 p-6  bg-white w-64 rounded-xl'>
-                  <div className='flex items-center '>
-                     <FaUser className='text-4xl mt-2 text-blue-500 font-semibold'></FaUser> <FaHeart className='text-blue-500 -ml-1'></FaHeart>
-                  </div>
-                  <p className='pt-4 pb-2'>2018</p>
-                  <p className='text-blue-500'>Cloud Solutions</p>
+               <div className=' font-semibold  p-6  bg-white w-64 rounded-xl'>
+                  <BsCheckLg className='text-4xl mt-2 text-red-600 font-bold'></BsCheckLg>
+                  <p className='pt-4 pb-2'>Price match</p>
+                  <span className='text-pink-600 '>Quality great deals promise </span>
                </div>
-               <div className='text-lg font-semibold my-8 p-6  bg-white w-64 rounded-xl'>
-                  <FaRegChartBar className='text-4xl mt-2 text-orange-400 font-semibold'></FaRegChartBar>
-                  <p className='pt-4 pb-2 text-orange-400'>2017</p>
-                  <p className=''>Cloud Solutions</p>
+
+               <div className=' font-semibold  p-6  bg-white w-64 rounded-xl'>
+                  <BsHeart className='text-4xl mt-2 text-blue-500 font-bold'></BsHeart>
+                  <p className='pt-4 pb-2'>Customer service.</p>
+                  <span className='text-blue-500'>More than just shopping.</span>
                </div>
-               <div className='text-lg font-semibold my-8 p-6  bg-white w-64 rounded-xl'>
-                  <div className='flex items-center '>
-                     <FaUser className='text-4xl mt-2 text-blue-500 font-semibold'></FaUser> <FaHeart className='text-blue-500 -ml-1'></FaHeart>
-                  </div>
-                  <p className='pt-4 pb-2'>2018</p>
-                  <p className='text-blue-500'>Cloud Solutions</p>
+
+               <div className=' font-semibold  p-4  bg-white w-64 rounded-xl'>
+                  <img src={img1} alt="" className='w-20' />
+                  <p className='pt-4 pb-2 text-orange-400'>Installation</p>
+                  <p className=''>and exceed the industry standards.</p>
                </div>
-               <div className='text-lg font-semibold my-8 p-6  bg-white w-64 rounded-xl'>
-                  <div className='flex items-center '>
-                     <FaUser className='text-4xl mt-2 text-blue-500 font-semibold'></FaUser> <FaHeart className='text-blue-500 -ml-1'></FaHeart>
-                  </div>
-                  <p className='pt-4 pb-2'>2018</p>
-                  <p className='text-blue-500'>Cloud Solutions</p>
+               <div className=' font-semibold  p-6  bg-white w-64 rounded-xl'>
+                  <BsCheckLg className='text-4xl mt-2 text-red-600 font-bold'></BsCheckLg>
+                  <p className='pt-4 pb-2'>Price match</p>
+                  <span className='text-pink-600 '>Quality great deals promise </span>
                </div>
+
+               <div className=' font-semibold  p-6  bg-white w-64 rounded-xl'>
+                  <BsHeart className='text-4xl mt-2 text-blue-500 font-bold'></BsHeart>
+                  <p className='pt-4 pb-2'>Customer service.</p>
+                  <span className='text-blue-500'>More than just shopping.</span>
+               </div>
+
             </Carousel>
          </div>
+
       </div>
    );
 };
