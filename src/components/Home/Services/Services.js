@@ -13,69 +13,73 @@ const Services = () => {
          breakpoint: { max: 4000, min: 3000 },
          items: 5
       },
-      desktop: {
-         breakpoint: { max: 3000, min: 1024 },
+      largeDesktop: {
+         // the naming can be any, depends on you.
+         breakpoint: { max: 3000, min: 1400 },
          items: 3
       },
-      tablet: {
-         breakpoint: { max: 1024, min: 464 },
+      desktop: {
+         breakpoint: { max: 1400, min: 1024 },
          items: 2
       },
-      mobile: {
-         breakpoint: { max: 464, min: 0 },
+      tablet: {
+         breakpoint: { max: 1024, min: 0 },
          items: 1
-      }
+      },
+
    };
    return (
       <div className='max-w-[1500px] mx-auto my-10 '>
          <div className='max-w-[1100px] mx-auto my-6'> <h1 className='text-4xl font-semibold'>Services. <span className='text-gray-400'>Here where the fun begins.</span></h1></div>
-         <Carousel responsive={responsive}>
-            {/* 01 */}
-            <div className="card w-[480px] h-[500px]  bg-base-100 shadow-md ">
-               <div className="card-body">
-                  <p className='text-gray-500 font-semibold text-xl'>Phone System</p>
-                  <h1 className=" font-bold text-2xl">Oh.SO.Pro!</h1>
-                  <p className='font-semibold'>We install & support Business telephone system using VoIP system technology</p>
+         <div className='mx-2 lg:mx-2 md:mx-6'>
+            <Carousel responsive={responsive}>
+               {/* 01 */}
+               <div className="card lg:w-[480px] md:w-[580px] w-80 h-[500px]  bg-base-100 shadow-md ">
+                  <div className="card-body">
+                     <p className='text-gray-500 font-semibold text-xl'>Phone System</p>
+                     <h1 className=" font-bold text-2xl">Oh.SO.Pro!</h1>
+                     <p className='font-semibold'>We install & support Business telephone system using VoIP system technology</p>
+                  </div>
+                  <figure><img src={img1} alt="" /></figure>
                </div>
-               <figure><img src={img1} alt="" /></figure>
-            </div>
-            {/* 02 */}
-            <div className="card w-[480px] h-[500px] bg-base-100  shadow-md ">
-               <div className="card-body">
-                  <p>Lines & Calls</p>
-                  <h1 className=" font-bold text-2xl ">Network Cabling, WIFI, and fibre optics</h1>
+               {/* 02 */}
+               <div className="card lg:w-[480px] md:w-[580px] w-80 h-[500px] bg-base-100  shadow-md ">
+                  <div className="card-body">
+                     <p>Lines & Calls</p>
+                     <h1 className=" font-bold text-2xl ">Network Cabling, WIFI, and fibre optics</h1>
 
+                  </div>
+                  <figure><img src={img2} alt="" /></figure>
                </div>
-               <figure><img src={img2} alt="" /></figure>
-            </div>
-            {/* 03 */}
-            <div className="card w-[480px] h-[500px] bg-base-100  shadow-md ">
-               <div className="card-body">
-                  <p>Internet</p>
-                  <h1 className=" font-bold text-2xl ">Business mobile packages and 4G data</h1>
+               {/* 03 */}
+               <div className="card lg:w-[480px] md:w-[580px] w-80 h-[500px] bg-base-100  shadow-md ">
+                  <div className="card-body">
+                     <p>Internet</p>
+                     <h1 className=" font-bold text-2xl ">Business mobile packages and 4G data</h1>
 
+                  </div>
+                  <figure><img src={img3} alt="" /></figure>
                </div>
-               <figure><img src={img3} alt="" /></figure>
-            </div>
-            {/* 04 */}
-            <div className="card w-[480px] h-[500px] bg-base-100  shadow-md ">
-               <div className="card-body">
-                  <p>Cabling & Wifi</p>
-                  <h1 className=" font-bold text-2xl ">Business Telephone Lines & Analogue & ISDN</h1>
+               {/* 04 */}
+               <div className="card lg:w-[480px] md:w-[580px] w-80 h-[500px] bg-base-100  shadow-md ">
+                  <div className="card-body">
+                     <p>Cabling & Wifi</p>
+                     <h1 className=" font-bold text-2xl ">Business Telephone Lines & Analogue & ISDN</h1>
 
+                  </div>
+                  <figure><img src={img4} alt="" /></figure>
                </div>
-               <figure><img src={img4} alt="" /></figure>
-            </div>
-            {/* 05 */}
-            <div className="card w-[480px] h-[500px] bg-base-100  shadow-md ">
-               <div className="card-body">
-                  <p>Mobile & 4G</p>
-                  <h1 className=" font-bold text-2xl ">Business Internet Connectivity</h1>
+               {/* 05 */}
+               <div className="card lg:w-[480px] md:w-[580px] w-80 h-[500px] bg-base-100  shadow-md ">
+                  <div className="card-body">
+                     <p>Mobile & 4G</p>
+                     <h1 className=" font-bold text-2xl ">Business Internet Connectivity</h1>
+                  </div>
+                  <figure><img src={img5} alt="" /></figure>
                </div>
-               <figure><img src={img5} alt="" /></figure>
-            </div>
 
-         </Carousel>;
+            </Carousel>;
+         </div>
       </div>
    );
 };
