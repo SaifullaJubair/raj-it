@@ -78,7 +78,7 @@ const Services = () => {
                   <figure><img src={img5} alt="" /></figure>
                </div>
 
-            </Carousel>;
+            </Carousel>
          </div>
       </div>
    );
