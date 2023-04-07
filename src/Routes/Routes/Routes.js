@@ -5,6 +5,12 @@ import { createBrowserRouter } from 'react-router-dom';
 import Home from '../../Pages/Home/Home';
 import Login from '../../Pages/Login/Login';
 import Register from '../../Pages/Register/Register';
+import About from '../../Pages/About/About';
+import Service from '../../Pages/Service/Service';
+import Contact from '../../Pages/Contact/Contact';
+import Billing from '../../Pages/Billing/Billing';
+import Download from '../../Pages/Download/Download';
+import TrainingVideo from '../../Pages/TrainingVideo/TrainingVideo';
 
 const router = createBrowserRouter([
    {
@@ -19,15 +25,27 @@ const router = createBrowserRouter([
 
          {
             path: '/about',
-            element: <Login></Login>
+            element: <About></About>
          },
          {
             path: '/service',
-            element: <Login></Login>
+            element: <Service></Service>
+         },
+         {
+            path: '/billing',
+            element: <Billing></Billing>
+         },
+         {
+            path: '/download',
+            element: <Download></Download>
          },
          {
             path: '/contact',
-            element: <Login></Login>
+            element: <Contact></Contact>
+         },
+         {
+            path: '/training_video',
+            element: <TrainingVideo></TrainingVideo>
          },
 
          {

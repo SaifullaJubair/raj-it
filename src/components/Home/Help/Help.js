@@ -13,9 +13,7 @@ const Help = () => {
          <h1 className='text-4xl font-semibold my-8'>Help is here. <span className='text-gray-400'>Always ready for you.</span></h1>
          <div className='grid grid-rows-3 lg:grid-cols-2 md:grid-cols-2 grid-cols-1 gap-6 mt-10 lg:mx-0 md:mx-3 mx-4'>
 
-            <div className="card  bg-white text-neutral-content row-span-2" data-aos="fade-right"
-               data-aos-duration='1500'
-               data-aos-anchor-placement="top-center">
+            <div className="card  bg-white text-neutral-content row-span-2" >
                <div className="card-body text-lg ">
                   <h2 className="card-title text-red-600">Advice</h2>
                   <p className='text-black font-semibold'>Specialist advice</p>
@@ -23,18 +21,14 @@ const Help = () => {
 
                </div>
             </div>
-            <div className="card bg-white text-neutral-content" data-aos="fade-left"
-               data-aos-duration='1500'
-               data-aos-anchor-placement="top-center">
+            <div className="card bg-white text-neutral-content">
                <div className="card-body  text-lg">
                   <h2 className="card-title text-blue-600 uppercase">Training</h2>
                   <p className='text-black font-semibold'>100 + training videos to support you</p>
                   <img src={img2} alt="" />
                </div>
             </div>
-            <div className="card bg-white text-neutral-content bg-gradient-to-br from-[#e0ebfc] to-[#f1e9ec]" data-aos="fade-left"
-               data-aos-duration='1500'
-               data-aos-anchor-placement="top-center" >
+            <div className="card bg-white text-neutral-content bg-gradient-to-br from-[#e0ebfc] to-[#f1e9ec]" >
                <div className="card-body text-black flex flex-row  justify-between  ">
                   <div className='w-1/3 font-semibold'>
                      <h2 className="card-title mt-2 mb-10">SUPPORT</h2>
