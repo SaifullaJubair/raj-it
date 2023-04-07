@@ -27,7 +27,7 @@ const Footer = () => {
                </div>
                <div className="grid grid-cols-2 text-sm gap-x-3 md:grid-cols-3 lg:w-2/3 w-4/5 lg:grid-cols-3">
                   <div className="  my-3">
-                     <h3 className="tracking-wide  font-semibold text-4xl dark:text-gray-50 lg:-mt-24 lg:mb-10">Services</h3>
+                     <h3 className="tracking-wide  font-semibold lg:text-4xl md:text-3xl text-2xl dark:text-gray-50 lg:-mt-24 lg:mb-10">Services</h3>
                      <ul className="space-y-1">
                         <li>
                            <a rel="noopener noreferrer" href="#">Telephone Systems</a>
@@ -53,7 +53,7 @@ const Footer = () => {
                      </ul>
                   </div>
                   <div className="space-y-3  my-3 ">
-                     <h3 className="tracking-wide font-semibold dark:text-gray-50 lg:-mt-24 lg:mb-10 text-3xl">Useful Links</h3>
+                     <h3 className="tracking-wide font-semibold dark:text-gray-50 lg:-mt-24 lg:mb-10 lg:text-4xl md:text-3xl text-2xl">Useful Links</h3>
                      <ul className="space-y-1">
                         <li>
                            <a rel="noopener noreferrer" href="#">Our Brochure</a>
@@ -70,7 +70,7 @@ const Footer = () => {
                      </ul>
                   </div>
                   <div className="space-y-3  mb-3 ">
-                     <h3 className="font-semibold dark:text-gray-50 lg:-mt-24 lg:mb-10 my-3 text-3xl">Developers</h3>
+                     <h3 className="font-semibold dark:text-gray-50 lg:-mt-24 lg:mb-10 my-3 pt-3 lg:text-4xl md:text-3xl text-2xl">Developers</h3>
                      <ul className="space-y-1">
                         <li>
                            <a rel="noopener noreferrer" href="#">Midland Networks Group Holdings Ltd</a>
@@ -86,7 +86,7 @@ const Footer = () => {
 
                </div>
             </div>
-            <div className="py-6 text-sm text-center  dark:text-gray-400">© 1968 Company Co. All rights reserved.</div>
+            <div className="py-6  text-center   text-white font-semibold">© 2022 Midland Networks Group Holdings Ltd. All Rights Reserved.</div>
          </footer>
       </div>
    );

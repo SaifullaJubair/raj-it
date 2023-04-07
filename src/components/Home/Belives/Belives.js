@@ -19,7 +19,9 @@ const Belives = () => {
             </div>
 
 
-            <div className='text-center font-semibold bg-white rounded-xl lg:flex lg:items-center justify-end flex-col '>
+            <div className='text-center font-semibold bg-white rounded-xl lg:flex lg:items-center justify-end flex-col' data-aos="zoom-in-up"
+               data-aos-duration='1500'
+               data-aos-anchor-placement="top-center">
                <div className=''>
                   <p className='text-red-500 text-xl'>PASSION</p>
                   <p className='text-3xl'> Think bigger.</p>
@@ -27,7 +29,9 @@ const Belives = () => {
                <img src={img3} className='  ' alt="" />
             </div>
 
-            <div className=' font-semibold bg-white rounded-xl text-center'>
+            <div className=' font-semibold bg-white rounded-xl text-center' data-aos="zoom-in-up"
+               data-aos-duration='1500'
+               data-aos-anchor-placement="top-center">
                <div className='pt-16'>
                   <p className=' text-gray-500'>EXPERTISE</p>
                   <p className='  text-3xl'>Over 20 years of experience.</p>

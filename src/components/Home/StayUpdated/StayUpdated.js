@@ -34,31 +34,37 @@ const StayUpdated = () => {
 
          {/* card section here  */}
 
-         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8'>
-            <div className="card w-96 bg-base-100 shadow-xl">
-               <figure><img src={img2} alt="Shoes" /></figure>
-               <div className="card-body bg-[#66c4f2] rounded-b-xl ">
-                  <h2 className="text-2xl font-bold w-3/4 mb-6 ">Why Choose a Hosted Telephone System?</h2>
+         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 justify-items-center '>
+            <div className="card lg:w-[340px] md:w-[340px] w-[300px] flex flex-col  bg-base-100 shadow-xl" data-aos="zoom-in-up"
+               data-aos-duration='1500'
+               data-aos-anchor-placement="top-center">
+               <figure className='h-1/2'><img src={img2} alt="" className='' /></figure>
+               <div className="card-body bg-[#66c4f2] rounded-b-xl h-1/2">
+                  <h2 className="text-xl font-bold lg:w-2/3 md:w-2/3 w-3/4 mb-6  ">Why Choose a Hosted Telephone System?</h2>
                   <p>Telephone system | 2 min read</p>
-
                </div>
             </div>
-            <div className="card w-96 bg-base-100 shadow-xl">
-               <figure><img src={img2} alt="Shoes" /></figure>
-               <div className="card-body bg-[#66c4f2] rounded-b-xl ">
-                  <h2 className="text-2xl font-bold w-3/4 mb-6 ">Why Choose a Hosted Telephone System?</h2>
-                  <p>Telephone system | 2 min read</p>
-
+            <div className="card lg:w-[340px] md:w-[340px] w-[300px] flex flex-col bg-[#285883]  shadow-xl" data-aos="zoom-in-up"
+               data-aos-duration='1500'
+               data-aos-anchor-placement="top-center">
+               <div className=" text-white text-center mt-44">
+                  <h2 className="text-xl font-bold  ">Midland HVS</h2>
+                  <div className='lg:mt-20 md:mt-16 py-10'>
+                     <button className='px-3 py-2 text-sm hover:bg-white hover:text-black hover:px-4 border-2 border-white'>TRAINING VIDEOS </button>
+                  </div>
                </div>
             </div>
-            <div className="card w-96 bg-base-100 shadow-xl">
-               <figure><img src={img2} alt="Shoes" /></figure>
-               <div className="card-body bg-[#66c4f2] rounded-b-xl ">
-                  <h2 className="text-2xl font-bold w-3/4 mb-6 ">Why Choose a Hosted Telephone System?</h2>
-                  <p>Telephone system | 2 min read</p>
-
+            <div className="card lg:w-[340px] md:w-[340px] w-[300px] flex flex-col  bg-base-100 shadow-xl" data-aos="zoom-in-up"
+               data-aos-duration='1500'
+               data-aos-anchor-placement="top-center">
+               <figure className='h-1/2'><img src={img3} alt="" className='h-full' /></figure>
+               <div className="card-body bg-[#d7657f] text-white rounded-b-xl h-1/2">
+                  <h2 className="text-xl font-bold w-2/3 mb-6 ">10 Things Every Cabling Installer Should Know</h2>
+                  <p>Data Cabling | 2 min read</p>
                </div>
             </div>
+
+
          </div>
 
 
